@@ -1,0 +1,25 @@
+{
+    "name": "zoffline-web",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "TEMPL_EXPERIMENT=rawgo templ generate && pnpm exec tailwindcss -i public/styles/tailwindcss.css -o public/styles/styles.css"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@iconify/tailwind": "^1.1.3",
+        "postcss-scss": "^4.0.9",
+        "prettier": "^3.3.3",
+        "prettier-plugin-go-template": "^0.0.15",
+        "prettier-plugin-style-order": "^0.2.2",
+        "prettier-plugin-tailwindcss": "^0.6.8",
+        "tailwindcss": "^3.4.14"
+    },
+    "dependencies": {
+        "@tailwindcss/forms": "^0.5.9",
+        "@tailwindcss/typography": "^0.5.15"
+    }
+}

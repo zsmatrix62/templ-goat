@@ -1,0 +1,131 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: ZwiftSprint-Black;
+        src:
+            url(/fonts/ZwiftSprint-Black.woff) format('woff'),
+            url(/fonts/ZwiftSprint-Black.woff2) format('woff2'),
+            url(/fonts/ZwiftSprint-Black.ttf) format('truetype');
+    }
+
+    @font-face {
+        font-family: ZwiftSprint-BlackItalic;
+        src:
+            url(/fonts/ZwiftSprint-BlackItalic.woff) format('woff'),
+            url(/fonts/ZwiftSprint-BlackItalic.woff2) format('woff2'),
+            url(/fonts/ZwiftSprint-BlackItalic.ttf) format('truetype');
+    }
+
+    @font-face {
+        font-family: ZwiftSprint-Bold;
+        src:
+            url(/fonts/ZwiftSprint-Bold.woff) format('woff'),
+            url(/fonts/ZwiftSprint-Bold.woff2) format('woff2'),
+            url(/fonts/ZwiftSprint-Bold.ttf) format('truetype');
+    }
+
+    @font-face {
+        font-family: ZwiftSprint-Medium;
+        src:
+            url(/fonts/ZwiftSprint-Medium.woff) format('woff'),
+            url(/fonts/ZwiftSprint-Medium.woff2) format('woff2'),
+            url(/fonts/ZwiftSprint-Medium.ttf) format('truetype');
+    }
+
+    @font-face {
+        font-family: ZwiftSprint-Regular;
+        src:
+            url(/fonts/ZwiftSprint-Regular.woff) format('woff'),
+            url(/fonts/ZwiftSprint-Regular.woff2) format('woff2'),
+            url(/fonts/ZwiftSprint-Regular.ttf) format('truetype');
+    }
+
+    @font-face {
+        font-family: ZwiftSprint-Italic;
+        src:
+            url(/fonts/ZwiftSprint-Italic.woff) format('woff'),
+            url(/fonts/ZwiftSprint-Italic.woff2) format('woff2'),
+            url(/fonts/ZwiftSprint-Italic.ttf) format('truetype');
+    }
+
+    @font-face {
+        font-family: ZwiftFondo-Medium;
+        src:
+            url(/fonts/ZwiftFondo-Medium.woff) format('woff'),
+            url(/fonts/ZwiftFondo-Medium.ttf) format('truetype');
+    }
+
+    @font-face {
+        font-family: ZwiftFondo-Regular;
+        src:
+            url(/fonts/ZwiftFondo-Regular.woff) format('woff'),
+            url(/fonts/ZwiftFondo-Regular.woff2) format('woff2'),
+            url(/fonts/ZwiftFondo-Regular.ttf) format('truetype');
+    }
+
+    @font-face {
+        font-family: ZwiftFondo-Black;
+        src:
+            url(/fonts/ZwiftFondo-Black.woff) format('woff'),
+            url(/fonts/ZwiftFondo-Black.woff2) format('woff2'),
+            url(/fonts/ZwiftFondo-Black.ttf) format('truetype');
+    }
+
+    @font-face {
+        font-family: ZwiftFondo-Bold;
+        src:
+            url(/fonts/ZwiftFondo-Bold.woff) format('woff'),
+            url(/fonts/ZwiftFondo-Bold.woff2) format('woff2'),
+            url(/fonts/ZwiftFondo-Bold.ttf) format('truetype');
+    }
+
+    @font-face {
+        font-family: ZwiftChrono-Regular;
+        src:
+            url(/fonts/ZwiftChrono-Regular.woff) format('woff'),
+            url(/fonts/ZwiftChrono-Regular.woff2) format('woff2'),
+            url(/fonts/ZwiftChrono-Regular.otf) format('opentype'),
+            url(/fonts/ZwiftChrono-Regular.ttf) format('truetype');
+    }
+
+    @font-face {
+        font-family: ZwiftChrono-Light;
+        src:
+            url(/fonts/ZwiftChrono-Light.woff) format('woff'),
+            url(/fonts/ZwiftChrono-Light.woff2) format('woff2'),
+            url(/fonts/ZwiftChrono-Light.otf) format('opentype'),
+            url(/fonts/ZwiftChrono-Light.ttf) format('truetype');
+    }
+
+    @font-face {
+        font-family: ZwiftChrono-Bold;
+        src:
+            url(/fonts/ZwiftChrono-Bold.woff) format('woff'),
+            url(/fonts/ZwiftChrono-Bold.woff2) format('woff2'),
+            url(/fonts/ZwiftChrono-Bold.otf) format('opentype'),
+            url(/fonts/ZwiftChrono-Bold.ttf) format('truetype');
+    }
+
+    .font-regular {
+        font-family: ZwiftSprint-Regular, Helvetica, Arial, sans-serif;
+        font-weight: 400;
+    }
+
+    .font-medium {
+        font-family: ZwiftSprint-Medium, Helvetica, Arial, sans-serif;
+        font-weight: 500;
+    }
+
+    .font-bold {
+        font-family: ZwiftSprint-Bold, Helvetica, Arial, sans-serif;
+        font-weight: 700;
+    }
+
+    .font-black {
+        font-family: ZwiftSprint-Black, Helvetica, Arial, sans-serif;
+        font-weight: 800;
+    }
+}
